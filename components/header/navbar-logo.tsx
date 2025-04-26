@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Logo from "../../public/logo.png";
+import Logo2 from "../../public/logo2.png";
 
 const NavbarLogo = () => {
   return (
-    <Link href="/" aria-label="Viapulsa">
-      <Image src={Logo} alt="Viapulsa" className="h-10 w-auto" />
+    <Link href="/" aria-label="WahyuConvert">
+      <Image src={Logo2} alt="WahyuConvert" className="h-10 w-auto" />
     </Link>
   );
 };

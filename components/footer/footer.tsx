@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Logo from "../../public/Viapulsa.png";
+import Logo from "../../public/WAHYUCONVERT.png";
 import GooglePlay from "../../public/google-play.png";
 import AppStore from "../../public/app-store.png";
 import { footerLinks, socialLinks } from "@/dummy";
@@ -20,7 +20,7 @@ const Footer = () => {
             {/* # Col */}
             <div className="flex-1">
               <Link href="/">
-                <Image src={Logo} alt="Viapulsa" className="h-10 w-auto" />
+                <Image src={Logo} alt="WahyuConvert" className="h-10 w-auto" />
               </Link>
               <address className="mt-4">
                 Jl. Semeru No. 4, Pangongangan, Kec. Manguharjo, Kota Madiun,
@@ -31,35 +31,7 @@ const Footer = () => {
             {/* Col */}
             <FooterMenu />
 
-            {/* Col */}
-            <div className="flex-1">
-              <h4 className="font-bold text-accent-foreground">
-                Download Aplikasi
-              </h4>
-              <div className="mt-4 flex flex-wrap items-center justify-start gap-4">
-                {/* Button */}
-                <div className="overflow-hidden rounded-lg bg-[#000000]">
-                  <Link href="/">
-                    <Image
-                      src={GooglePlay}
-                      alt="Google Play"
-                      className="h-10 w-auto"
-                    />
-                  </Link>
-                </div>
-
-                {/* Button */}
-                <div className="overflow-hidden rounded-lg bg-[#000000]">
-                  <Link href="/">
-                    <Image
-                      src={AppStore}
-                      alt="Google Play"
-                      className="h-10 w-auto"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -71,7 +43,7 @@ const Footer = () => {
             {/* # Col */}
             <span className="text-sm">
               Copyright © 2022 -{" "}
-              <Link href="/">PT. Viapulsa Global Indonesia</Link>
+              <Link href="/">PT. WahyuConvert Global Indonesia</Link>
             </span>
 
             {/* # Col */}

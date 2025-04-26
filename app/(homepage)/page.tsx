@@ -42,7 +42,7 @@ export default function Home() {
 
               <p className="mt-4">
                 Punya Pulsa Berlebih Tapi Nggak Dipakai? Tukar Pulsa Kamu Jadi
-                Uang / Saldo eWallet hanya dalam hitungan menit di Viapulsa!
+                Uang / Saldo eWallet hanya dalam hitungan menit di WahyuConvert!
               </p>
 
               <Link
@@ -81,40 +81,10 @@ export default function Home() {
           <div className="flex flex-col items-center gap-12">
             {/* # */}
             <p className="text-center text-lg font-medium text-primary-foreground max-md:mx-4 md:w-3/4">
-              Kita tahu betapa bernilainya pulsa kamu. Viapulsa membangun
+              Kita tahu betapa bernilainya pulsa kamu. WahyuConvert membangun
               layanan tukar pulsa menjadi uang yang fair untuk semua orang.
             </p>
 
-            {/* # */}
-            <div className="relative flex flex-col items-center max-md:mx-2 md:w-11/12 py-24">
-              {/* ## */}
-              <div className="absolute bottom-12 top-0 z-10 w-full rounded-3xl bg-accent-foreground md:top-12"></div>
-
-              {/* ## */}
-              <div className="z-20 flex flex-col-reverse items-center gap-8 text-center md:flex-row md:items-center md:justify-center md:text-start">
-                {/* ### */}
-                <div className="w-full md:w-1/3">
-                  <Image
-                    src={imgSection2}
-                    alt="Image"
-                    className="mx-auto h-auto w-4/5 md:h-auto md:w-full"
-                  />
-                </div>
-
-                {/* ### */}
-                <div className="flex flex-col space-y-3 p-4 max-md:pt-12 md:w-2/3 md:p-0">
-                  <span className="text-2xl font-bold text-primary-foreground md:text-3xl">
-                    2+ millions download.
-                  </span>
-                  <span className="text-2xl font-bold text-primary-foreground md:text-3xl">
-                    2+ millions transactions.
-                  </span>
-                  <span className="text-2xl font-extrabold text-white md:text-3xl">
-                    SINCE 2010, and still counting...
-                  </span>
-                </div>
-              </div>
-            </div>
 
             {/* # */}
             <div className="mt-8 w-full">
@@ -156,7 +126,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-12">
             {/* # */}
             <h2 className="h2 text-center font-extrabold text-primary-foreground md:w-3/4">
-              Kenapa Kamu Harus Convert Pulsa di Viapulsa?
+              Kenapa Kamu Harus Convert Pulsa di WahyuConvert?
             </h2>
 
             {/* # */}
@@ -174,7 +144,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-12">
             {/* # */}
             <h2 className="h2 text-center font-extrabold text-primary-foreground md:w-3/4">
-              Bagaimana Cara Mudah Convert Pulsa di Viapulsa?
+              Bagaimana Cara Mudah Convert Pulsa di WahyuConvert?
             </h2>
 
             {/* # */}
@@ -207,7 +177,7 @@ export default function Home() {
             {/* # */}
             <div className="text-center">
               <h2 className="h2 text-center font-extrabold text-primary-foreground">
-                Apa Saja Pilihan Metode Pencairan di Viapulsa?
+                Apa Saja Pilihan Metode Pencairan di WahyuConvert?
               </h2>
               <p className="mt-4">
                 Kamu bisa memilih salah satu dari beberapa metode pencairan,
@@ -241,34 +211,10 @@ export default function Home() {
               {/* # */}
               <div className="max-md:text-center md:w-max">
                 <h2 className="h2 font-extrabold text-white md:w-3/4">
-                  Install Aplikasi Viapulsa Sekarang!
+                  Hubungi Kami Melalui Whatsapp Sekarang !!
                 </h2>
 
                 <div className="mt-8 flex flex-wrap items-center justify-center gap-4 md:justify-start">
-                  {/* Button */}
-                  <div className="overflow-hidden rounded-lg bg-[#000000]">
-                    <Link href="/">
-                      <Image
-                        src={GooglePlay}
-                        alt="Google Play"
-                        className="h-10 w-auto"
-                      />
-                    </Link>
-                  </div>
-
-                  {/* Button */}
-                  <div className="overflow-hidden rounded-lg bg-[#000000]">
-                    <Link href="/">
-                      <Image
-                        src={AppStore}
-                        alt="Google Play"
-                        className="h-10 w-auto"
-                      />
-                    </Link>
-                  </div>
-
-                  <span className="text-white max-md:w-full">atau</span>
-
                   {/* Button */}
                   <div className="overflow-hidden rounded-lg bg-[#00B151]">
                     <Link href="/">

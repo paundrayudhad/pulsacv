@@ -29,7 +29,7 @@ export const navigationLinks = [
 export const footerLinks = [
   {
     id: 1,
-    title: "Tentang Viapulsa",
+    title: "Tentang WahyuConvert",
     links: [
       {
         id: 1,
@@ -223,25 +223,25 @@ export const whyUs = [
   {
     id: 1,
     title: "Online 24 Jam Nonstop",
-    desc: "Viapulsa online 24 jam tanpa istirahat. Jadi, kamu bisa convert pulsa kapan saja. Mau convert saat pagi buta? Bisa.",
+    desc: "WahyuConvert online 24 jam tanpa istirahat. Jadi, kamu bisa convert pulsa kapan saja. Mau convert saat pagi buta? Bisa.",
     img: "/why-us/24-hours.png",
   },
   {
     id: 2,
     title: "Convert Cepat 5 Menit",
-    desc: "Butuh uang cepat? Kamu convert pulsa di aplikasi Viapulsa aja. Saldomu bakal masuk sat-set dalam 5 menit!",
+    desc: "Butuh uang cepat? Kamu convert pulsa di aplikasi WahyuConvert aja. Saldomu bakal masuk sat-set dalam 5 menit!",
     img: "/why-us/fast-processing.png",
   },
   {
     id: 3,
     title: "Trusted 100%",
-    desc: "Kamu nggak perlu parno kalau saldomu gagal masuk. Soalnya Viapulsa sudah berbadan hukum sehingga transaksimu dijamin 100% real.",
+    desc: "Kamu nggak perlu parno kalau saldomu gagal masuk. Soalnya WahyuConvert sudah berbadan hukum sehingga transaksimu dijamin 100% real.",
     img: "/why-us/shield.png",
   },
   {
     id: 4,
     title: "Cuan Maksimal",
-    desc: "Mau dapat untung berlipat-lipat? Kamu pasti cuan maksimal karena rate Viapulsa sangat bersaing hingga 80%.",
+    desc: "Mau dapat untung berlipat-lipat? Kamu pasti cuan maksimal karena rate WahyuConvert sangat bersaing hingga 80%.",
     img: "/why-us/profits.png",
   },
 ];
@@ -251,7 +251,7 @@ export const tutorialConvert = [
   {
     id: 1,
     title: "Sign In dengan Akun Google/ Apple ID",
-    desc: "Install aplikasi Viapulsa & “Sign In” dengan akun Google/Apple ID. Silakan tanda tangan digital, lalu centang “Saya pastikan aman” & klik “Setuju”.",
+    desc: "Install aplikasi WahyuConvert & “Sign In” dengan akun Google/Apple ID. Silakan tanda tangan digital, lalu centang “Saya pastikan aman” & klik “Setuju”.",
   },
   {
     id: 2,
@@ -275,8 +275,8 @@ export const tutorialConvert = [
   },
   {
     id: 6,
-    title: "Transfer Pulsa ke Viapulsa Terlebih Dahulu",
-    desc: "Pilih “Klik di sini” untuk mentransfer pulsa ke Viapulsa. Ikuti arahan sistem hingga pulsa berhasil terkirim.",
+    title: "Transfer Pulsa ke WahyuConvert Terlebih Dahulu",
+    desc: "Pilih “Klik di sini” untuk mentransfer pulsa ke WahyuConvert. Ikuti arahan sistem hingga pulsa berhasil terkirim.",
   },
   {
     id: 7,
@@ -285,7 +285,7 @@ export const tutorialConvert = [
   },
   {
     id: 8,
-    title: "Proses Convert di Viapulsa",
+    title: "Proses Convert di WahyuConvert",
     desc: "Ketika muncul status “Transaksi Dalam Proses”, pulsa kamu sedang di-convert & akan masuk dalam hitungan menit saja.",
   },
 ];
@@ -353,23 +353,23 @@ export const pertanyaanPertanyaan = [
   },
   {
     id: "3",
-    q: "Apakah Viapulsa melayani convert 24 jam?",
-    a: "Iya, layanan convert pulsa di Viapulsa online 24 jam tanpa istirahat.",
+    q: "Apakah WahyuConvert melayani convert 24 jam?",
+    a: "Iya, layanan convert pulsa di WahyuConvert online 24 jam tanpa istirahat.",
   },
   {
     id: "4",
-    q: "Apakah proses convert pulsa di Viapulsa mudah?",
-    a: "Iya, kamu bisa convert pulsa lewat aplikasi hanya dalam hitungan 5-10 menit di Viapulsa.",
+    q: "Apakah proses convert pulsa di WahyuConvert mudah?",
+    a: "Iya, kamu bisa convert pulsa lewat aplikasi hanya dalam hitungan 5-10 menit di WahyuConvert.",
   },
   {
     id: "5",
-    q: "Apakah Viapulsa aman dan terpercaya?",
-    a: "Viapulsa sudah berbadan hukum dengan aplikasi yang sudah di-download 1 juta orang lebih. Jadi, kamu bisa bertransaksi secara aman. ",
+    q: "Apakah WahyuConvert aman dan terpercaya?",
+    a: "WahyuConvert sudah berbadan hukum dengan aplikasi yang sudah di-download 1 juta orang lebih. Jadi, kamu bisa bertransaksi secara aman. ",
   },
   {
     id: "6",
-    q: "Apakah layanan Viapulsa bebas biaya admin?",
-    a: "Iya, layanan Viapulsa bebas biaya admin.",
+    q: "Apakah layanan WahyuConvert bebas biaya admin?",
+    a: "Iya, layanan WahyuConvert bebas biaya admin.",
   },
   {
     id: "7",
@@ -379,12 +379,12 @@ export const pertanyaanPertanyaan = [
   {
     id: "8",
     q: "Kenapa nomor tujuan transfer selalu berbeda?",
-    a: "Setiap provider memiliki batas penerimaan pulsa. Hal inilah yang membuat nomor penerima Viapulsa selalu berbeda-beda. Selain itu, penggunaan nomor yang berbeda akan mempermudah proses pengiriman pulsa kamu kapan saja tanpa takut melewati limit.",
+    a: "Setiap provider memiliki batas penerimaan pulsa. Hal inilah yang membuat nomor penerima WahyuConvert selalu berbeda-beda. Selain itu, penggunaan nomor yang berbeda akan mempermudah proses pengiriman pulsa kamu kapan saja tanpa takut melewati limit.",
   },
   {
     id: "9",
     q: "Bagaimana jika sudah terlanjur kirim nomor ke nomor sebelumnya?",
-    a: "Segera hubungi customer care Viapulsa untuk dibantu pengecekan pulsanya. Untuk memperlancar proses ini, silakan siapkan bukti pengiriman pulsa lengkap dengan tanggal dan jam pengiriman.",
+    a: "Segera hubungi customer care WahyuConvert untuk dibantu pengecekan pulsanya. Untuk memperlancar proses ini, silakan siapkan bukti pengiriman pulsa lengkap dengan tanggal dan jam pengiriman.",
   },
 ];
 

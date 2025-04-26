@@ -22,10 +22,6 @@ const Footer = () => {
               <Link href="/">
                 <Image src={Logo} alt="WahyuConvert" className="h-10 w-auto" />
               </Link>
-              <address className="mt-4">
-                Jl. Semeru No. 4, Pangongangan, Kec. Manguharjo, Kota Madiun,
-                Jawa Timur 63121
-              </address>
             </div>
 
             {/* Col */}

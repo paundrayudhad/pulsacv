@@ -46,7 +46,7 @@ export default function Home() {
               </p>
 
               <Link
-                href="/"
+                href="/convert-pulsa"
                 aria-label="Convert Pulsa Sekarang!"
                 className={cn(
                   buttonVariants({

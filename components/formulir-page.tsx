@@ -107,6 +107,7 @@ export default function FormulirPage() {
                 <SelectValue placeholder="Pilih Provider"/>
               </SelectTrigger>
               <SelectContent>
+              <SelectItem value="" disabled className="text-gray-400">Pilih Provider</SelectItem>
                 {convertRate.map((provider) => (
                   <SelectItem key={provider.id} value={provider.provider} className="flex items-center">
                     <div className="flex items-center gap-2">
@@ -130,6 +131,7 @@ export default function FormulirPage() {
 
           <div>
             <Input
+               type="number"
               placeholder="No Handphone"
               value={formData.phoneNumber}
               onChange={(e) => handleChange("phoneNumber", e.target.value)}
@@ -138,6 +140,7 @@ export default function FormulirPage() {
 
           <div>
             <Input
+             type="number"
               placeholder="Nominal"
               value={formData.nominal}
               onChange={(e) => handleChange("nominal", e.target.value)}
@@ -163,9 +166,19 @@ export default function FormulirPage() {
             </div>
           )}
 
-          <Button className="w-full bg-teal-600 hover:bg-teal-700" onClick={() => goToStep("bank")}>
-            Selanjutnya
-          </Button>
+<Button
+  className="w-full bg-teal-600 hover:bg-teal-700"
+  onClick={() => goToStep("bank")}
+  disabled={
+    !formData.provider ||
+    !formData.phoneNumber ||
+    !formData.nominal ||
+    Number(formData.nominal) < 50000
+  }
+>
+  Selanjutnya
+</Button>
+
         </div>
       </CardContent>
     </>
@@ -210,6 +223,7 @@ export default function FormulirPage() {
                 <SelectValue placeholder="Pilih Bank" />
               </SelectTrigger>
               <SelectContent className="max-h-[300px]">
+                <SelectItem value="" disabled className="text-gray-400">Pilih Bank</SelectItem>
                 <SelectItem value="sakuku">SAKUKU</SelectItem>
                 <SelectItem value="bca">BCA</SelectItem>
                 <SelectItem value="linkaja">LINKAJA</SelectItem>
@@ -235,6 +249,7 @@ export default function FormulirPage() {
 
           <div>
             <Input
+              type="number"
               placeholder="No Rekening / No HP"
               value={formData.accountNumber}
               onChange={(e) => handleChange("accountNumber", e.target.value)}
@@ -268,7 +283,9 @@ Provider : ${formData.provider}
 No Pengirim Pulsa : ${formData.phoneNumber}
 Bank / Dompet Digital : ${formData.bank.toUpperCase()}
 No Rekening : ${formData.accountNumber}
-Atas Nama : ${formData.accountName}`
+Atas Nama : ${formData.accountName}
+Uang Diterima : Rp ${calculateAmountReceived().toLocaleString()}
+Rate : ${formData.rate && `${Number.parseFloat(formData.rate) * 100}%`}`
 
     return `https://api.whatsapp.com/send/?phone=${whatsappNumber}&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`
   }
